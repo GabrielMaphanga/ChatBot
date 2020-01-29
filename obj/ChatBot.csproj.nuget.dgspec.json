@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Gabriel Maphanga\\source\\repos\\ChatBot\\ChatBot.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Gabriel Maphanga\\source\\repos\\ChatBot\\ChatBot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gabriel Maphanga\\source\\repos\\ChatBot\\ChatBot.csproj",
+        "projectName": "ChatBot",
+        "projectPath": "C:\\Users\\Gabriel Maphanga\\source\\repos\\ChatBot\\ChatBot.csproj",
+        "packagesPath": "C:\\Users\\Gabriel Maphanga\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gabriel Maphanga\\source\\repos\\ChatBot\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gabriel Maphanga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Sources\\PackageRepo": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/365solutions/_packaging/365Solutions.Packages/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/365solutions/_packaging/Nursery365/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Telegram.Bot": {
+              "target": "Package",
+              "version": "[15.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
